@@ -50,35 +50,9 @@ elif categoria == 'Primeira classe' and passageiros >= 4:
     valor_desconto = valor_bruto * 0.80  # 20% de desconto
     media = valor_desconto / 4
     print(f'O valor bruto de sua viagem foi de R${valor_bruto:.2f} para R${valor_desconto:.2f}, com uma média de R${media:.2f} por passageiro.')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 else:
     print(f'Nenhum desconto aplicado. O valor da viagem é R${valor_bruto:.2f}')
+
 
 
 
